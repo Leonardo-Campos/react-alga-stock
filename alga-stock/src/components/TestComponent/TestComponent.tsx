@@ -1,8 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import './TestComponent.css'
 
-const TestComponent = () => (
-<div className="TestComponet">Test Component</div>
-)
+function TestComponent (props: {name: string}) {
+    const [age, setAge] =useState(21)
+return <div className="TestComponet">
+    Olá, {props.name}, {age}
+    <button onClick={() => {
+        setAge(age + 1)
+    }}>+</button>
+    </div>
+} 
 
 export default TestComponent
