@@ -10,6 +10,7 @@
     "@types/node": "^16.11.49",
     "@types/react": "^18.2.54",
     "@types/react-dom": "^18.2.18",
+    "node-sass": "npm:sass@^1.71.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^3.0.1",
